@@ -1,11 +1,11 @@
-# Project Name
+# Project Name = Bob the smile classifier
 
- Add short description of project here > it detects happy and unhappy faces
+ it detects happy and unhappy faces
 I wanted to do this because I like to do simple things thats all really
+you can do this to detect who finds a joke funny and who does not, and for the future development of this project will include a live video stream
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
 I use imagenet to detect the smile and unsmiling faces
 I trained my model on colab on the dataset I downloaded on kaggle: https://www.kaggle.com/datasets/ghousethanedar/smiledetection?resource=download
 I exported and tested the model on jetson nano
@@ -13,4 +13,4 @@ I exported and tested the model on jetson nano
 ## Running this project
 
 1.  to retrain the model please use https://colab.research.google.com/drive/192QnxdF8Juk2wwc0I9ICik3jt7NmCs6N
-2. to test this model use {specific command} to use it
+2. to test this model use {imagenet.py --model=model/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=face/labels.txt face/test/happy/[Example.jpg] [Example2.jpg]} login to your jetson nano to use it
