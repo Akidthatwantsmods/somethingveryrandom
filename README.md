@@ -9,6 +9,8 @@ you can do this to detect who finds a joke funny and who does not, and for the f
 I use imagenet to detect the smile and unsmiling faces
 I trained my model on colab on the dataset I downloaded on kaggle: https://www.kaggle.com/datasets/ghousethanedar/smiledetection?resource=download
 I exported and tested the model on jetson nano
+here is the colab: https://colab.research.google.com/drive/192QnxdF8Juk2wwc0I9ICik3jt7NmCs6N?usp=sharing
+and here is the link to my second video: https://youtu.be/ZayF8yCt0fY
 
 ## Running this project
 
